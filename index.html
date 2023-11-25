@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/211c8f6253.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo"><span style="color:#39c0fa;">H</span>ARIPRASATH</h2>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB developer</p>
+                <h1>Hi, I'm <span>Hariprasath</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="006.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate Full stack developer. Building and maintaining 
+                        responsive websites in the technology and service industry.
+                         Highly skilled in HTML, CSS, JavaScript jquery and java alongside
+                          modern frameworks and libraries. Interested about accessibility 
+                          and usability of modern websites .</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Additional Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Internships</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span><i class="fa-solid fa-circle-notch"></i>&ensp;</span>Problem Solving</li>
+                                <li><span><i class="fa-solid fa-circle-notch"></i>&ensp;</span>Critical Thinking</li>
+                                <li><span><i class="fa-solid fa-circle-notch"></i>&ensp;</span>Planning & Organising</li>
+                                <li><span><i class="fa-solid fa-circle-notch"></i>&ensp;</span>Team Work</li>
+                                <li><span><i class="fa-solid fa-circle-notch"></i>&ensp;</span>Time Management</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2-Months</span><br>NCR Corporation India Pvt Ltd-Apprentice  (core).</li>
+                                <li><span>6-Months</span><br>Brainery Spot-Full Stack Developer  (Soft).</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016/06 - 2017/03</span><br>10<sup>th</sup> :<br>Govt Boys Higher Secondary School, Uthangarai.</li>
+                                <li><span>2018/06 - 2019/05</span><br>12<sup>th</sup> :<br>Wisdom Matric Higher Secondary School, Kallavi.</li>
+                                <li><span>2019/08 - 2023/06</span><br>B.E - Electronics And Communication Engineering :<br>Mahendra College Of Engineering, Salem.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY SKILLS</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>HTML (HyperText Markup Language) is the code that is used to 
+                        structure a web page and its content. </p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>CSS stands for Cascading Style Sheets, and it's used to
+                         add style to a web page by dictating how a site 
+                         is displayed on a browser</p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>BOOTSTRAP</h2>
+                    <p>What is Bootstrap? Bootstrap is a free, open source 
+                        front-end development framework for the creation 
+                        of websites and web apps.</p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JAVASCRIPT</h2>
+                    <p>JavaScript (JS) is a cross-platform, 
+                        object-oriented programming language 
+                        used by developers to make web pages interactive</p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clipboard-question"></i>
+                    <h2>JQUERY</h2>
+                    <p>jQuery is a lightweight, "write less, do more",
+                         JavaScript library. The purpose of jQuery is to 
+                         make it much easier to use JavaScript on your website.</p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PYTHON</h2>
+                    <p>Python is commonly used for developing websites 
+                        and software, task automation, data analysis, 
+                        and data visualisation. </p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-squarespace"></i>
+                    <h2>MYSQL</h2>
+                    <p>MySQL is a relational database management system based 
+                        on SQL – Structured Query Language.</p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-file"></i>
+                    <h2>DJANGO</h2>
+                    <p>Django can be (and has been) used to build almost any type of 
+                        website — from content management systems and wikis,
+                         through to social networks and news sites</p>
+                        <a href="#" class="lm">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Game</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply 
+                            random text. It has roots in a piece of classical Latin </p>
+                            <a href="https://hari4219pk.github.io/project2/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Basic Web Design</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply 
+                            random text. It has roots in a piece of classical Latin </p>
+                            <a href="https://hari4219pk.github.io/project1/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Movie,Anime,Books Clone</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply 
+                            random text. It has roots in a piece of classical Latin </p>
+                            <a href="https://hari4219pk.github.io/afxux/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> hariprasathp@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 9360701959</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/hariprasath.pk?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+919360701959"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/hari_crazy_01?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/hariprasath-p-144232281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="hari-cv.pdf" download class="btn btn3">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Thankyou For Your Watching&ensp;<i class="fa-solid fa-heart"></i>&ensp;Welcome Back</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzBUsbWMdTEJK3XbgfMqdHFyuyIx45IrtDJm6byZFx-ElqBcXwAH6ZSbD9r6LScUP9bIg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
